@@ -34,7 +34,7 @@
 
   ```ts
   interface ComponentOptions {
-    render?(this: ComponentPublicInstance) => VNodeChild
+    render?: (this: ComponentPublicInstance) => VNodeChild
   }
 
   type VNodeChild = VNodeChildAtom | VNodeArrayChildren
